@@ -1,3 +1,10 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+
+
 # Prerequisites
 *.d
 
