@@ -1,0 +1,6 @@
+﻿  book.cpp
+  library.cpp
+  main.cpp
+  Generating Code...
+C:\Users\Gstore\Desktop\library\library\library\src\library.cpp(64,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\Gstore\Desktop\library\library\library\src\library.cpp(63,11): warning C4834: discarding return value of function with [[nodiscard]] attribute
