@@ -4,6 +4,7 @@ borrow, return, add, remove them, also save or load the info to or from a file
 
 
 ##Project Structure
+```
 library
 ├──include/
 │  ├──book.h
@@ -13,7 +14,7 @@ library
 │  ├──library.cpp
 │  └──main.cpp
 └──README.md
-
+```
 
 ##features
 - add, remove and display books
