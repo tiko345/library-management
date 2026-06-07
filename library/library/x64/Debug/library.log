@@ -1,6 +1,4 @@
-﻿  book.cpp
-  library.cpp
-  main.cpp
-  Generating Code...
-C:\Users\Gstore\Desktop\library\library\library\src\library.cpp(64,2): error C2143: syntax error: missing ';' before '}'
-C:\Users\Gstore\Desktop\library\library\library\src\library.cpp(63,11): warning C4834: discarding return value of function with [[nodiscard]] attribute
+﻿  library.cpp
+C:\Users\Gstore\Desktop\library\library\library\src\library.cpp(52,13): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Gstore\Desktop\library\library\library\src\library.cpp(63,13): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  library.vcxproj -> C:\Users\Gstore\Desktop\library\library\x64\Debug\library.exe

@@ -3,12 +3,12 @@
 
 using namespace std;
 
-Book::Book(int id, string title, string author, int year) {
+Book::Book(int id, string title, string author, int year, bool isAvailable) {
 	this->id = id;
 	this->title = title;
 	this->author = author;
 	this->year = year;
-	this->isAvailable = true;
+	this->isAvailable = isAvailable;
 }
 
 bool Book::getIsAvailable() const {
@@ -34,12 +34,12 @@ int Book::getYear() const {
 void Book::display() const {
 	cout << "ID: " << id << endl;
 	cout << "Title: " << title << endl;
-	cout << "Authot: " << author << endl;
+	cout << "Author: " << author << endl;
 	cout << "Publish Year: " << year << endl;
 	cout << "Availability: " << (isAvailable ? "Available" : "Not Available") << endl;
 }
 
-void Book::borrowBookById() {
+void Book::borrowBook() {
 	if (isAvailable) {
 		isAvailable = false;
 		cout << "You have borrowed the book: " << title << endl;

@@ -14,9 +14,9 @@ public:
 	void displayBooks() const;
 	void removeBookById(int id);
 	void removeBookByTitle(string title);
-	int searchById(int id);
-	int searchByTitle(string title);
-	int searchByAuthor(string author);
+	Book* searchById(int id);
+	Book* searchByTitle(string title);
+	vector<Book*> searchByAuthor(string author);//one author can have many books
 	void borrowBook(int id);
 	void returnBook(int id);
 	void saveToFile(string filename) const;

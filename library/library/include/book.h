@@ -13,14 +13,14 @@ class Book {
 	bool isAvailable;
 
 public:
-	Book(int id, string title, string author, int year);
+	Book(int id, string title, string author, int year, bool isAvailable=true);
 	bool getIsAvailable() const;
 	int getId() const;
 	string getTitle() const;
 	string getAuthor() const;
 	int getYear() const;
 	void display() const;
-	void borrowBookById();
+	void borrowBook();
 	void returnBook();
 };
 
